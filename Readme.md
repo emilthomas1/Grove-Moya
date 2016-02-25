@@ -1,5 +1,10 @@
-[![Build Status](https://travis-ci.org/Moya/Moya.svg?branch=master)](https://travis-ci.org/Moya/Moya) [![codecov.io](https://codecov.io/github/Moya/Moya/coverage.svg?branch=master)](https://codecov.io/github/Moya/Moya?branch=master)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+# Grove Fork:
+
+This fork of Moya is pure Moya. It strips all reactive frameworks, extensions, and dependencies away.
+
+After dealing with 15-20 minute build times through Carthage, and incompatability issues with Swift 2.2, maintaining a fork may prove to be the easiest way to bring in Moya through Carthage.
+
+---
 
 ![Moya Logo](web/moya_logo_github.png)
 

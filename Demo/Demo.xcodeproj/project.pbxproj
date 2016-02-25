@@ -25,21 +25,6 @@
 		067D498B1C0D3886005BBA79 /* NetworkLogginPluginSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D496E1C0D3886005BBA79 /* NetworkLogginPluginSpec.swift */; };
 		067D498C1C0D3886005BBA79 /* NetworkLogginPluginSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D496E1C0D3886005BBA79 /* NetworkLogginPluginSpec.swift */; };
 		067D498D1C0D3886005BBA79 /* NetworkLogginPluginSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D496E1C0D3886005BBA79 /* NetworkLogginPluginSpec.swift */; };
-		067D498E1C0D3886005BBA79 /* Observable+MoyaSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D496F1C0D3886005BBA79 /* Observable+MoyaSpec.swift */; };
-		067D498F1C0D3886005BBA79 /* Observable+MoyaSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D496F1C0D3886005BBA79 /* Observable+MoyaSpec.swift */; };
-		067D49901C0D3886005BBA79 /* Observable+MoyaSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D496F1C0D3886005BBA79 /* Observable+MoyaSpec.swift */; };
-		067D49911C0D3886005BBA79 /* RACSignal+MoyaSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D49701C0D3886005BBA79 /* RACSignal+MoyaSpec.swift */; };
-		067D49921C0D3886005BBA79 /* RACSignal+MoyaSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D49701C0D3886005BBA79 /* RACSignal+MoyaSpec.swift */; };
-		067D49931C0D3886005BBA79 /* RACSignal+MoyaSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D49701C0D3886005BBA79 /* RACSignal+MoyaSpec.swift */; };
-		067D49941C0D3886005BBA79 /* ReactiveCocoaMoyaProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D49711C0D3886005BBA79 /* ReactiveCocoaMoyaProviderTests.swift */; };
-		067D49951C0D3886005BBA79 /* ReactiveCocoaMoyaProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D49711C0D3886005BBA79 /* ReactiveCocoaMoyaProviderTests.swift */; };
-		067D49961C0D3886005BBA79 /* ReactiveCocoaMoyaProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D49711C0D3886005BBA79 /* ReactiveCocoaMoyaProviderTests.swift */; };
-		067D49971C0D3886005BBA79 /* RxSwiftMoyaProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D49721C0D3886005BBA79 /* RxSwiftMoyaProviderTests.swift */; };
-		067D49981C0D3886005BBA79 /* RxSwiftMoyaProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D49721C0D3886005BBA79 /* RxSwiftMoyaProviderTests.swift */; };
-		067D49991C0D3886005BBA79 /* RxSwiftMoyaProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D49721C0D3886005BBA79 /* RxSwiftMoyaProviderTests.swift */; };
-		067D499A1C0D3886005BBA79 /* SignalProducer+MoyaSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D49731C0D3886005BBA79 /* SignalProducer+MoyaSpec.swift */; };
-		067D499B1C0D3886005BBA79 /* SignalProducer+MoyaSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D49731C0D3886005BBA79 /* SignalProducer+MoyaSpec.swift */; };
-		067D499C1C0D3886005BBA79 /* SignalProducer+MoyaSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D49731C0D3886005BBA79 /* SignalProducer+MoyaSpec.swift */; };
 		067D499D1C0D3886005BBA79 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D49741C0D3886005BBA79 /* TestHelpers.swift */; };
 		067D499E1C0D3886005BBA79 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D49741C0D3886005BBA79 /* TestHelpers.swift */; };
 		067D499F1C0D3886005BBA79 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067D49741C0D3886005BBA79 /* TestHelpers.swift */; };
@@ -78,11 +63,6 @@
 		067D496C1C0D3886005BBA79 /* MoyaProviderIntegrationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaProviderIntegrationTests.swift; sourceTree = "<group>"; };
 		067D496D1C0D3886005BBA79 /* MoyaProviderSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaProviderSpec.swift; sourceTree = "<group>"; };
 		067D496E1C0D3886005BBA79 /* NetworkLogginPluginSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogginPluginSpec.swift; sourceTree = "<group>"; };
-		067D496F1C0D3886005BBA79 /* Observable+MoyaSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+MoyaSpec.swift"; sourceTree = "<group>"; };
-		067D49701C0D3886005BBA79 /* RACSignal+MoyaSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RACSignal+MoyaSpec.swift"; sourceTree = "<group>"; };
-		067D49711C0D3886005BBA79 /* ReactiveCocoaMoyaProviderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactiveCocoaMoyaProviderTests.swift; sourceTree = "<group>"; };
-		067D49721C0D3886005BBA79 /* RxSwiftMoyaProviderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSwiftMoyaProviderTests.swift; sourceTree = "<group>"; };
-		067D49731C0D3886005BBA79 /* SignalProducer+MoyaSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignalProducer+MoyaSpec.swift"; sourceTree = "<group>"; };
 		067D49741C0D3886005BBA79 /* TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
 		067D49751C0D3886005BBA79 /* testImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage.png; sourceTree = "<group>"; };
 		20DB81523A74AB440AE9E5CB /* Pods-MoyaTests-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaTests-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaTests-tvOS/Pods-MoyaTests-tvOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -159,11 +139,6 @@
 				067D496C1C0D3886005BBA79 /* MoyaProviderIntegrationTests.swift */,
 				067D496D1C0D3886005BBA79 /* MoyaProviderSpec.swift */,
 				067D496E1C0D3886005BBA79 /* NetworkLogginPluginSpec.swift */,
-				067D496F1C0D3886005BBA79 /* Observable+MoyaSpec.swift */,
-				067D49701C0D3886005BBA79 /* RACSignal+MoyaSpec.swift */,
-				067D49711C0D3886005BBA79 /* ReactiveCocoaMoyaProviderTests.swift */,
-				067D49721C0D3886005BBA79 /* RxSwiftMoyaProviderTests.swift */,
-				067D49731C0D3886005BBA79 /* SignalProducer+MoyaSpec.swift */,
 				067D49741C0D3886005BBA79 /* TestHelpers.swift */,
 				067D49751C0D3886005BBA79 /* testImage.png */,
 				067D49A31C0D388E005BBA79 /* Supporting Files */,
@@ -610,17 +585,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				067D49921C0D3886005BBA79 /* RACSignal+MoyaSpec.swift in Sources */,
-				067D49951C0D3886005BBA79 /* ReactiveCocoaMoyaProviderTests.swift in Sources */,
-				067D49981C0D3886005BBA79 /* RxSwiftMoyaProviderTests.swift in Sources */,
 				067D498C1C0D3886005BBA79 /* NetworkLogginPluginSpec.swift in Sources */,
 				067D49861C0D3886005BBA79 /* MoyaProviderIntegrationTests.swift in Sources */,
 				067D49801C0D3886005BBA79 /* ErrorTests.swift in Sources */,
 				067D49891C0D3886005BBA79 /* MoyaProviderSpec.swift in Sources */,
 				067D499E1C0D3886005BBA79 /* TestHelpers.swift in Sources */,
-				067D498F1C0D3886005BBA79 /* Observable+MoyaSpec.swift in Sources */,
 				067D497A1C0D3886005BBA79 /* EndpointSpec.swift in Sources */,
-				067D499B1C0D3886005BBA79 /* SignalProducer+MoyaSpec.swift in Sources */,
 				067D497D1C0D3886005BBA79 /* Error+MoyaSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -629,17 +599,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				067D49931C0D3886005BBA79 /* RACSignal+MoyaSpec.swift in Sources */,
-				067D49961C0D3886005BBA79 /* ReactiveCocoaMoyaProviderTests.swift in Sources */,
-				067D49991C0D3886005BBA79 /* RxSwiftMoyaProviderTests.swift in Sources */,
 				067D498D1C0D3886005BBA79 /* NetworkLogginPluginSpec.swift in Sources */,
 				067D49871C0D3886005BBA79 /* MoyaProviderIntegrationTests.swift in Sources */,
 				067D49811C0D3886005BBA79 /* ErrorTests.swift in Sources */,
 				067D498A1C0D3886005BBA79 /* MoyaProviderSpec.swift in Sources */,
 				067D499F1C0D3886005BBA79 /* TestHelpers.swift in Sources */,
-				067D49901C0D3886005BBA79 /* Observable+MoyaSpec.swift in Sources */,
 				067D497B1C0D3886005BBA79 /* EndpointSpec.swift in Sources */,
-				067D499C1C0D3886005BBA79 /* SignalProducer+MoyaSpec.swift in Sources */,
 				067D497E1C0D3886005BBA79 /* Error+MoyaSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -658,17 +623,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				067D49911C0D3886005BBA79 /* RACSignal+MoyaSpec.swift in Sources */,
-				067D49941C0D3886005BBA79 /* ReactiveCocoaMoyaProviderTests.swift in Sources */,
-				067D49971C0D3886005BBA79 /* RxSwiftMoyaProviderTests.swift in Sources */,
 				067D498B1C0D3886005BBA79 /* NetworkLogginPluginSpec.swift in Sources */,
 				067D49851C0D3886005BBA79 /* MoyaProviderIntegrationTests.swift in Sources */,
 				067D497F1C0D3886005BBA79 /* ErrorTests.swift in Sources */,
 				067D49881C0D3886005BBA79 /* MoyaProviderSpec.swift in Sources */,
 				067D499D1C0D3886005BBA79 /* TestHelpers.swift in Sources */,
-				067D498E1C0D3886005BBA79 /* Observable+MoyaSpec.swift in Sources */,
 				067D49791C0D3886005BBA79 /* EndpointSpec.swift in Sources */,
-				067D499A1C0D3886005BBA79 /* SignalProducer+MoyaSpec.swift in Sources */,
 				067D497C1C0D3886005BBA79 /* Error+MoyaSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
