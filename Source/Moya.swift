@@ -120,9 +120,18 @@ public class MoyaProvider<Target: TargetType> {
 public extension MoyaProvider {
     
     // These functions are default mappings to MoyaProvider's properties: endpoints, requests, manager, etc.
-    
+
     public final class func DefaultEndpointMapping(target: Target) -> Endpoint<Target> {
-        let url = target.baseURL.URLByAppendingPathComponent(target.path).absoluteString
+
+        var url: String = ""
+        #if swift(>=2.3)
+          if let targetUrl = target.baseURL.URLByAppendingPathComponent(target.path)?.absoluteString {
+            url = targetUrl
+          }
+        #else
+          url = target.baseURL.URLByAppendingPathComponent(target.path).absoluteString
+        #endif
+
         return Endpoint(URL: url, sampleResponseClosure: {.NetworkResponse(200, target.sampleData)}, method: target.method, parameters: target.parameters)
     }
     
@@ -155,8 +164,10 @@ public extension MoyaProvider {
         return .Immediate
     }
     
-    public final class func DelayedStub(seconds: NSTimeInterval)(_: Target) -> Moya.StubBehavior {
+    public final class func DelayedStub(seconds: NSTimeInterval) -> (Target) -> Moya.StubBehavior {
+      return {(_: Target) -> Moya.StubBehavior in
         return .Delayed(seconds: seconds)
+      }
     }
 }
 
